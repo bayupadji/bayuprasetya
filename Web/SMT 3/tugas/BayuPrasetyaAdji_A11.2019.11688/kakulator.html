@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>Calculator</title>
+    <script src="calc.js"></script>
+    <style type="text/css">
+        .tombol {
+            background-color: rgb(170, 255, 0);
+            border-radius: 5px;
+        }
+        
+        .tabel {
+            border-radius: 5px;
+            background-color: rgb(0, 0, 0);
+            margin: 10px;
+            padding: 10px;
+        }
+        
+        .tabel td {
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="calculator">
+        <table class="tabel">
+            <caption>Calculator</caption>
+            <tr>
+                <td>Angka 1</td>
+                <td>:</td>
+                <td><input type="number" name="angka1"></td>
+            </tr>
+            <tr>
+                <td>Angka 2</td>
+                <td>:</td>
+                <td><input type="number" name="angka2"></td>
+            </tr>
+            <tr>
+                <td>Hasil</td>
+                <td>:</td>
+                <td><input type="number" name="hasil"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <input class="tombol" type="button" onclick="tambah()" value="  +  ">
+                    <input class="tombol" type="button" onclick="kurang()" value="  -  ">
+                    <input class="tombol" type="button" onclick="kali()" value="  *  ">
+                    <input class="tombol" type="button" onclick="bagi()" value="  /  ">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

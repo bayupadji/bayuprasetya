@@ -1,0 +1,108 @@
+<style>
+  *{
+    box-sizing: border-box;
+  }
+  /*body*/
+  body {
+    margin: 0;
+    font-family: Oxygen;
+    src:url(font/Oxygen);
+  }
+  /*header*/
+  .header {
+    overflow: hidden;
+    padding: 10px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    background-color: #1a1c20;
+  }
+  /*header*/
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    background: inherit;
+    filter: none;
+
+  }
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .header a:hover {
+    background-color: #ffcb74;
+    color: black;
+  }
+  /*navigation Bar*/
+  .navbar {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+  }
+  /*Main*/
+  .head {
+    padding: 50px;
+    text-align: left;
+    color: black;
+    background-color: #eeeeee;
+
+  }
+  .tip {
+    padding: 50px;
+    text-align: right;
+    color: black;
+    background-color: #e6e6e6;
+
+  }
+  /*button*/
+  .bt {
+    background-color: #000000;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display:  inline-block;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: Oxygen;
+    src:url(font/Oxygen);
+  }
+  /*button hover*/
+  .bt:hover{
+    background-color: #ffcb74;
+    color: #000000 ;
+  }
+  /*footer*/
+  .about {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6e6e6;
+  }
+  /*flexible*/
+  @media screen and (max-width : 700px) {
+    .header{
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width : 576px){
+    .header{
+      flex-direction: column;
+    }
+    .navbar{
+      flex-direction: column;
+    }
+  }
+</style>

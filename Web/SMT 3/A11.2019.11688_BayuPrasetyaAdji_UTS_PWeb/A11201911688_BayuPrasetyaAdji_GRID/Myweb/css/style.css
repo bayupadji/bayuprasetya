@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*body*/
+
+body {
+    margin: 0;
+    font-family: Oxygen;
+    src: url(font/Oxygen);
+}
+
+
+/*header*/
+
+.header {
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #1a1c20;
+}
+
+
+/*header*/
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    background: inherit;
+    filter: none;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #ffcb74;
+    color: black;
+}
+
+
+/*navigation Bar*/
+
+.navbar {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+
+/*Main*/
+
+.d-container {
+    display: flex;
+    margin: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+.menu li {
+    padding: 15px;
+    padding-left: 10px;
+    margin-bottom: 7px;
+    background-color: #1a1c20;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.menu li:hover {
+    background-color: #ffcb74;
+    color: #1a1c20;
+    transition-duration: 0.5s;
+}
+
+.li1 {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+
+/*button*/
+
+.bt {
+    background-color: #000000;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: Oxygen;
+    src: url(font/Oxygen);
+}
+
+
+/*button hover*/
+
+.bt:hover {
+    background-color: #ffcb74;
+    color: #000000;
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: #eeeeee;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.footer p {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+
+/* For mobile phones: */
+
+[class*="col-"] {
+    width: 100%;
+}
+
+
+/*flexible*/
+
+@media screen and (max-width: 700px) {
+    .header {
+        flex-direction: column;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .head {
+        flex-direction: column;
+    }
+    .d-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        flex-direction: column;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .head {
+        flex-direction: column;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .d-container {
+        flex-direction: column;
+    }
+}

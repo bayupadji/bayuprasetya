@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/drawable/btnprofile.xml" value="0.21223628691983124" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/drawable/custom_input.xml" value="0.13425925925925927" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/drawable/custombutton.xml" value="0.21223628691983124" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/drawable/customtotlbox.xml" value="0.21223628691983124" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/drawable/customutton.xml" value="0.21495726495726497" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/drawable/strkprofile.xml" value="0.21223628691983124" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/layout/activity_detail_produk.xml" value="0.1" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/layout/activity_pembayaran.xml" value="0.4" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/layout/activity_profilesetting.xml" value="0.1" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/layout/activity_registrasi.xml" value="0.17037037037037037" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/layout/activity_splash_screen.xml" value="0.11666666666666667" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/layout/content_main.xml" value="0.24583333333333332" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/layout/list_main.xml" value="0.2" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/menu/menu.xml" value="0.20170940170940171" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/menu/optionmenu.xml" value="0.20170940170940171" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14629629629629629" />
+        <entry key="..\:/Materi/Materi Kuliah/PPB/ayamku/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14629629629629629" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

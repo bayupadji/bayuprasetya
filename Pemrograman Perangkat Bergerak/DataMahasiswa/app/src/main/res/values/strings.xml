@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DataMahasiswa</string>
+    <string name="batal">Batal</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="nis">NIS</string>
+    <string name="update">Update</string>
+    <string name="tambah">Tambah</string>
+</resources>
