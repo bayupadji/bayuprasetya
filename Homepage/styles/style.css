@@ -1,0 +1,131 @@
+:root {
+    --red: #B71B22;
+    --white: #FAFAFA;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 5%;
+    background-color: var(--white);
+}
+
+img {
+    width: 100%;
+}
+
+.navbar {
+    padding: 15px;
+    background-color: var(--white);
+    box-shadow: 0 8px 20px rgba(51, 51, 51, 0.08), 0 0 6px rgba(51, 51, 51, 0.05);
+}
+
+.nav-link {
+    font-weight: bolder;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn {
+    font-weight: bolder;
+    border: 2px solid var(--red);
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.logo {
+    width: 55px;
+    height: 50px;
+}
+
+.btn:hover {
+    border: 2px solid var(--red);
+    background-color: var(--white);
+    color: var(--red);
+    transition: 450ms;
+}
+
+.nav-link:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--red);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-link:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.hero {
+    background-image: url(../images/images1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    padding: 2em;
+    position: relative;
+}
+
+.hero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(29, 29, 29, 0.8);
+    z-index: -1;
+}
+
+.buttonlgn {
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.item {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.titlesm {
+    font-style: normal;
+    color: #7a7a7a;
+}
+
+.titles {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.card {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.Sosmed {
+    padding: 2px
+}
