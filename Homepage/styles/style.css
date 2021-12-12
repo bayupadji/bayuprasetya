@@ -1,6 +1,9 @@
 :root {
     --red: #B71B22;
-    --white: #FAFAFA;
+    --white: #F3F3F3;
+    --cw: #fff;
+    --form: #ACACAC;
+    --grey: #F5F5F5;
 }
 
 body {
@@ -45,7 +48,7 @@ img {
 
 .btn:hover {
     border: 2px solid var(--red);
-    background-color: var(--white);
+    background-color: transparent;
     color: var(--red);
     transition: 450ms;
 }
@@ -112,7 +115,7 @@ img {
     color: #000000;
 }
 
-.card {
+.berita {
     border-radius: 4px;
     background: #fff;
     box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
@@ -121,11 +124,38 @@ img {
     margin-bottom: 20px;
 }
 
-.card:hover {
+.berita:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
 
 .Sosmed {
     padding: 2px
+}
+
+.card {
+    background-color: var(--cw);
+    border: none;
+    border-radius: 20px;
+    margin-top: 5em;
+    width: 400px;
+    box-shadow: 0px 6.650102138519287px 5.32008171081543px 0px #51505007;
+    box-shadow: 0px 22.3363094329834px 17.869047164916992px 0px #5150500B;
+    box-shadow: 0px 100px 80px 0px #51505012;
+}
+
+.bodyc {
+    padding: 10%;
+}
+
+.loginform {
+    border-radius: 10px;
+    border-color: var(--form);
+    background-color: var(--grey);
+}
+
+@media screen and (max-width:700px) {
+    .card {
+        width: 100%;
+    }
 }
