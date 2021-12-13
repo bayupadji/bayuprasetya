@@ -1,22 +1,30 @@
+/* library */
+
 :root {
     --red: #B71B22;
     --white: #F3F3F3;
     --cw: #fff;
     --form: #ACACAC;
     --grey: #F5F5F5;
+    --fonsize: 16px;
+    --smsize: 14px;
 }
+
+
+/*end of library */
 
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: var(--fonsize);
     letter-spacing: 5%;
     background-color: var(--white);
 }
 
-img {
+
+/* img {
     width: 100%;
-}
+} */
 
 .navbar {
     padding: 15px;
@@ -133,7 +141,7 @@ img {
     padding: 2px
 }
 
-.card {
+.cardlogin {
     background-color: var(--cw);
     border: none;
     border-radius: 20px;
@@ -154,8 +162,41 @@ img {
     background-color: var(--grey);
 }
 
+.bc {
+    padding: 5px;
+    margin-bottom: -15px;
+    font-size: var(--fonsize);
+}
+
+.breadcrumb {
+    text-decoration: none;
+}
+
+.navbarbreadcump {
+    border-radius: 10px;
+    box-shadow: none;
+    background-color: var(--smsize);
+}
+
+.imgartikel {
+    margin-top: 30px;
+}
+
+.imgitemart {
+    height: 560px;
+    width: 800px;
+    border-radius: 12px;
+}
+
+
+/* responsive */
+
 @media screen and (max-width:700px) {
     .card {
         width: 100%;
+    }
+    .imgartikel .imgitemart {
+        width: 100%;
+        height: fit-content;
     }
 }
